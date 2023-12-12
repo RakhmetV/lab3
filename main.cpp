@@ -2,7 +2,7 @@
 // Rakhmetov Vadim
 int main(int argc, char argv)
 {
-char first[255], last[255];
+char first[255], last[255]; // izmenenie
 printf(&quot;Enter your first name: &quot;);
 fgets(first, 255, stdin);
 first[strlen(first)-1] = &#39;\0&#39;; /* remove the newline at the end */
